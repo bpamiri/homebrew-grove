@@ -1,22 +1,22 @@
 class Grove < Formula
   desc "Conversational AI development orchestrator"
   homepage "https://github.com/bpamiri/grove"
-  version "0.1.11"
+  version "0.1.12"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bpamiri/grove/releases/download/v0.1.11/grove-darwin-arm64.tar.gz"
-      sha256 "35eda9e632bc4f19c233c15cdffb04a04e47fb5ff57683898c9f09f9d8697a69"
+      url "https://github.com/bpamiri/grove/releases/download/v0.1.12/grove-darwin-arm64.tar.gz"
+      sha256 "e070aabc0ac90284e67271df8f49307228518aab1e97301844512be08a1a5ed8"
     else
-      url "https://github.com/bpamiri/grove/releases/download/v0.1.11/grove-darwin-x64.tar.gz"
-      sha256 "5927fbd505bdca08fd89243aa07776ae9dd02aaddfd74f69c361051241822649"
+      url "https://github.com/bpamiri/grove/releases/download/v0.1.12/grove-darwin-x64.tar.gz"
+      sha256 "0165f8471a8ae0776d6c83c48982fda45615d6ba242dae4fbf4a549688f89ca5"
     end
   end
 
   on_linux do
-    url "https://github.com/bpamiri/grove/releases/download/v0.1.11/grove-linux-x64.tar.gz"
-    sha256 "e8013601c7f9c524487f759b8af3937e261589ec401e53fea9400be5890f148b"
+    url "https://github.com/bpamiri/grove/releases/download/v0.1.12/grove-linux-x64.tar.gz"
+    sha256 "41c1b22b8dbd4e9f648e9e4b0cafcb73fc70559832ca1c92e89c1d9e1226e621"
   end
 
   def install
